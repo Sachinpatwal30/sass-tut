@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: pink;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+}
+.main .main_paragraph1, .main .main_paragraph2 {
+  color: green;
+  font-weight: 700;
+}
+.main .main_paragraph1:hover, .main .main_paragraph2:hover {
+  color: red;
+}
+.main .main_paragraph2:hover {
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */
